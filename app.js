@@ -10,6 +10,17 @@ function increment(){
      console.log(count)
 }
 
+function decrement() {
+    if (count > 0) {
+        count -= 1
+        countEl.textContent = count
+        console.log(count)
+    } else {
+        alert("Count cannot be negative!")
+    }
+}
+
+
 
 function saves(){
 
@@ -27,3 +38,4 @@ function saves(){
 
 }
 saves()
+
